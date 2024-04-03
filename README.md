@@ -25,7 +25,7 @@ Workout Planner provides users with the ability to create personalized workout p
    ```
 2. Navigate to the backend directory and install dependencies:
    ```
-   cd backend
+   cd workout-planner-backend
    bundle install
    ```
 3. Set up the database:
@@ -39,7 +39,7 @@ Workout Planner provides users with the ability to create personalized workout p
    ```
 5. Navigate to the frontend directory and install dependencies:
    ```
-   cd frontend
+   cd workout-planner-ui
    npm install
    ```
 6. Start the frontend server:
