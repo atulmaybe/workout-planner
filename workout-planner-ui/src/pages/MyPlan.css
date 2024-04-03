@@ -1,0 +1,9 @@
+.myworkout{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.myworkout h2{
+    margin-left: 15PX;
+}

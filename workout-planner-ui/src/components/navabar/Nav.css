@@ -1,0 +1,96 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  .logo{
+    color: aliceblue;
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+    margin: 4px;
+    padding-top: 9px;
+    margin-left: 15px;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #38677c;
+  }
+  
+  .active {
+    background-color: #38677c;
+  }
+
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 100%;
+    justify-content: space-around;
+  }
+  
+  /* Create four equal columns */
+  .column {
+    flex: 20%;
+    padding: 20px;
+    margin: 5px;
+    }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .column {
+      flex: 50%;
+      margin: 5px;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+.active{
+    float: right;
+    background-color: rgb(22, 22, 22);
+    width: auto;
+    padding: 0 0px;
+    color: white;
+
+}
+
+ .active button , .btn{
+    width: auto;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 18px 16px;
+    font-size: 15px;
+}
+ .btn{
+    cursor: pointer;
+ }
+.active button:hover{
+    background-color: #38677c;
+}
+
+.btn:hover{
+    background-color: #38677c;
+}
+
+.beforelogin{
+  padding: 14px;
+}

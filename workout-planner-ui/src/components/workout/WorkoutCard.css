@@ -1,0 +1,55 @@
+.contentCard{
+    margin: 10px;
+    padding: 0px;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content:left;
+  }
+  
+  .child {
+    margin: 8px;
+    margin-top: 15px;
+  }
+
+  .detailbtn{
+    padding: 5px;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color:  #38677c;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  .detailbtn3{
+    background-color: white;
+    border: 2px solid  #38677c;
+    color: black;
+    padding: 5px 5px;
+  }
+
+  .detailbtn1{
+    display: inline;
+  }
+
+  
+  .detailbtn2{
+    display: inline;
+    margin-left: 20px;
+  }
+
+  .detailbtn3:hover{
+    background-color: #000000;
+    color: white;
+  }
+
+  .detailbtn:hover{
+    background-color: #38677c;
+    color: white;
+  }

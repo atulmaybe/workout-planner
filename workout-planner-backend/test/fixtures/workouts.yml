@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  workout_date: 2023-09-05 16:26:21
+  workpout_desc: MyText
+  workout_type: MyString
+  users: one
+
+two:
+  title: MyString
+  workout_date: 2023-09-05 16:26:21
+  workpout_desc: MyText
+  workout_type: MyString
+  users: two

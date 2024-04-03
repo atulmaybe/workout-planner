@@ -1,0 +1,23 @@
+form {
+    padding: 5px;
+}
+label{
+    padding: 5px;
+}
+form > input{
+    padding: 7px;
+    margin: 5px;
+}
+
+
+
+.formhead{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
