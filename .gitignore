@@ -1,0 +1,5 @@
+/workout-planner-backend/tmp/cache
+ /workout-planner-ui/node_modules
+ .ruby-version
+ .DS_Store
+ /_MACOSX
